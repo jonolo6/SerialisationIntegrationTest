@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test-integration" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test-unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test-helpers" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.9.0-rc1" level="project" />
+    <orderEntry type="library" name="Maven: org.jbehave:jbehave-spring:3.5.4" level="project" />
+    <orderEntry type="library" name="Maven: org.jbehave:jbehave-core:3.5.4" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit-dep:4.8.2" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-library:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-integration:1.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:1.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.5" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:2.0.5" level="project" />
+    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.16" level="project" />
+    <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.thoughtworks.xstream:xstream:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-test:2.5.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.yaml:snakeyaml:1.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.easymock:easymock:3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: cglib:cglib-nodep:2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:1.2" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/buildtools/lib/clover-ant-3.1.10/api" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/cx.expedia/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/cx.expedia/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/cx.expedia/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/cx.expedia/test-api" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/dataaccess/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/dataaccess/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/dataaccess/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/dataaccess/contracts/generated" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/dataaccess/test-api" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/domain/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/domain/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/domain/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/domain/test-api" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/api/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/api/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/api/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/mobile.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/mobile.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/mobile.ui/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/hotel.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/hotel.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/hotel.ui/functional.test/hotel.api.test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/hotel.ui/test-api" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/stub/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/stub/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/stub/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/packages.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/packages.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/packages.ui/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/flight.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/flight.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/flight.ui/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/selfserv.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/selfserv.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/selfserv.ui/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/selfserv.ui/test-api" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/platform/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/platform/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/platform/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/platform/legacyTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/platform/test-api" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/shared.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/shared.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/shared.ui/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/shared.ui/test-api" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/udp.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/udp.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/udp.ui/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/udp.ui/test-api" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/checkout.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/checkout.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/checkout.ui/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/checkout.ui/test-api" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/infosite.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/infosite.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/infosite.ui/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/tools.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/tools.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/car.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/car.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/grouprewards.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/grouprewards.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/grouprewards.ui/integrationTest" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/grouprewards.ui/test-api" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/atol.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/atol.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/travelguides.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/travelguides.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/marketing.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/marketing.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/sandbox/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/buildtools/ant-custom-tasks/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/buildtools/ant-custom-tasks/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/buildtools/expweb-spring/src/main/java" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/buildtools/lib/clover-ant-3.1.10/tutorial/src/main/java" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/buildtools/lib/clover-ant-3.1.10/tutorial/src/test/java" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/cruise.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/cruise.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/scratchpad.ui/src" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/scratchpad.ui/test" />
+          <root url="file:///src/depots/jolofsson_MacPro_1994/www/expweb/trunk/stcs/generated" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
