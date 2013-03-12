@@ -11,7 +11,10 @@ import java.io.Serializable;
  */
 public class TestModel implements Serializable {
 
+    private static final long serialVersionUID = 2765884437957874564L;
+
     private Object object;
+    private Object object2;
 
 // If you uncomment the line below the TestModelTest's unit test that checks that the roundtrip serialisation works as the object below doesn't implement the Serialisable interface.
 //    private NonSerialisableObject nonSerialisableObject = new NonSerialisableObject();

@@ -16,7 +16,7 @@ import static org.testng.Assert.assertEquals;
 public class TestModelIntegrationTest {
 
     @Test
-    void testSerializationFormatHasNotChanged() throws IOException, ClassNotFoundException {
+    public void testSerializationFormatHasNotChanged() throws IOException, ClassNotFoundException {
 
         //deserialize
         InputStream in = new FileInputStream("test-data/testModelExample.dat");
@@ -25,7 +25,7 @@ public class TestModelIntegrationTest {
         TestModel context = (TestModel) o;
 
         // test the result
-        assertEquals("String Value", context.getVariableValue());
+        assertEquals("blah2", context.getVariableValue());
     }
 
 }

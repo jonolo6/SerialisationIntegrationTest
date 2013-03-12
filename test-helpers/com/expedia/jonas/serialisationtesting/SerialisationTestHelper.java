@@ -26,7 +26,7 @@ public class SerialisationTestHelper {
         ObjectOutputStream out = new ObjectOutputStream(fout);
 
         TestModel context = new TestModel("variableObject");
-        context.setVariableValue("blah");
+        context.setVariableValue("blah2");
 
         out.writeObject(context);
         out.flush();

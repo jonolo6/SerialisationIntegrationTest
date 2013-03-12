@@ -17,7 +17,7 @@ import static org.testng.Assert.assertTrue;
 public class TestModelTest {
 
     @Test
-    void testCanSerialise() throws IOException {
+    public void testCanSerialise() throws IOException {
         TestModel testModel = new TestModel("blah");
 
         ByteArrayOutputStream out = new ByteArrayOutputStream();
