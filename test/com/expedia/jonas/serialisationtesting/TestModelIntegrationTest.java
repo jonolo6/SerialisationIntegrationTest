@@ -43,6 +43,11 @@ public class TestModelIntegrationTest {
         }
     }
 
+    @Test
+    public void testThatCallingAllMethodsOnAnObjectThatDeserialisesFineButIsIncompatibleFails(){
+        assertTrue(false, "need to implement this test next.");
+    }
+
     private void assertRoundTripSerialisationToDisk(String fileName, ITestModel modelToDisk, String expectedStringValueOfSubObject) throws IOException, ClassNotFoundException {
         DiskSerializer diskSerializer = new DiskSerializer();
         Object objectFromDisk = diskSerializer.roundTripSerialiseToDisk(fileName, modelToDisk);

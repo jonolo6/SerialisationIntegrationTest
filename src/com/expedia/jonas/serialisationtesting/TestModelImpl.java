@@ -19,7 +19,6 @@ public class TestModelImpl implements Serializable, ITestModel {
         this.object = object;
     }
 
-
     public void setObjects(ISubObject newObject) {
         this.object = newObject;
     }
