@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializbleObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SubObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModel.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ITestModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SerialisationIntegrationTest.iws" afterPath="$PROJECT_DIR$/SerialisationIntegrationTest.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java" afterPath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java" afterPath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java" />
     </list>
     <ignored path="SerialisationIntegrationTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194804386" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195164150" ignored="false" />
     <file path="/TestModel.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195114621" ignored="false" />
     <file path="/fragment.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194884525" ignored="false" />
     <file path="/TestModelTest.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195139572" ignored="false" />
@@ -798,7 +790,11 @@
       <created>1363194807990</created>
       <updated>1363194807990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactored a bit... Same functionality as prior.">
+      <created>1363195170935</created>
+      <updated>1363195170935</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
