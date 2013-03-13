@@ -1,7 +1,5 @@
 package com.expedia.jonas.serialisationtesting;
 
-import java.io.Serializable;
-
 /**
  * Created with IntelliJ IDEA.
  * User: jolofsson
@@ -9,35 +7,12 @@ import java.io.Serializable;
  * Time: 09:57
  * To change this template use File | Settings | File Templates.
  */
-public class SerializableObject implements Serializable, SubObject {
-
-    private String object;
+public class SerializableObject extends AbstractSerializbleObject {
 
 
-    public SerializableObject(String object) {
-        this.object = object;
+    public SerializableObject(String string) {
+        super(string);
     }
 
-    @Override
-    public String getStringValue() {
-        return object;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof SerializableObject)) return false;
-
-        SerializableObject that = (SerializableObject) o;
-
-        if (object != null ? !object.equals(that.object) : that.object != null) return false;
-
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        return object != null ? object.hashCode() : 0;
-    }
 }
 

@@ -19,13 +19,13 @@ public class TestModelTest {
     //This test will fail if the TestModel hasn't implemented the Serializable interface.
     @Test
     public void testCanSerialise() throws IOException {
-        TestModel testModel = new TestModelImpl(new SerializableObject("testSerializableObject"));
+        ITestModel testModel = new TestModelImpl(new SerializableObject("testSerializableObject"));
 
         ByteArrayOutputStream out = serialise(testModel);
         assertTrue(out.toByteArray().length > 0);
     }
 
-    private ByteArrayOutputStream serialise(TestModel testModel) throws IOException {
+    private ByteArrayOutputStream serialise(ITestModel testModel) throws IOException {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         ObjectOutputStream oos = new ObjectOutputStream(out);
         oos.writeObject(testModel);

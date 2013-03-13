@@ -2,33 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-helpers/com/expedia/jonas/serialisationtesting/DiskSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SubObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-helpers/com/expedia/jonas/serialisationtesting/SerialisationTestHelper.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerialisableObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerialisedObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializbleObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SubObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModel.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ITestModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SerialisationIntegrationTest.iws" afterPath="$PROJECT_DIR$/SerialisationIntegrationTest.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java" afterPath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java" afterPath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java" />
     </list>
     <ignored path="SerialisationIntegrationTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363191067061" ignored="false" />
-    <file path="/TestModel.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363193750644" ignored="false" />
-    <file path="/fragment.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194604894" ignored="false" />
-    <file path="/TestModelTest.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194524663" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194804386" ignored="false" />
+    <file path="/TestModel.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195114621" ignored="false" />
+    <file path="/fragment.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194884525" ignored="false" />
+    <file path="/TestModelTest.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195139572" ignored="false" />
     <file path="/FileSerialiserTest.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363114789832" ignored="false" />
     <file path="/FileSerialiser.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363114932931" ignored="false" />
-    <file path="/NonSerialisableObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363193709152" ignored="false" />
+    <file path="/NonSerialisableObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194980575" ignored="false" />
     <file path="/SerialisationTestHelper.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363193936790" ignored="false" />
-    <file path="/TestModelIntegrationTest.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194758273" ignored="false" />
+    <file path="/TestModelIntegrationTest.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195131000" ignored="false" />
     <file path="/SerialisedObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363168699491" ignored="false" />
     <file path="/NonSerializableTestModel.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363193853335" ignored="false" />
-    <file path="/SerializableObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194027050" ignored="false" />
+    <file path="/SerializableObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194915094" ignored="false" />
     <file path="/.gitignore" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194778578" ignored="false" />
+    <file path="/AbstractSerializbleObjects.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194898371" ignored="false" />
+    <file path="/SubObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195017834" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,10 +92,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestModelIntegrationTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestModelIntegrationTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="97" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
+            <state line="31" column="135" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.56227326">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="61" selection-start="23" selection-end="23" vertical-scroll-proportion="0.035714287">
+            <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,7 +115,7 @@
       <file leaf-file-name="TestModelTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="64" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
+            <state line="37" column="13" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +135,16 @@
       <file leaf-file-name="NonSerializableObject.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="22" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractSerializbleObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializbleObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="22" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,25 +153,25 @@
       <file leaf-file-name="TestModelImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="11" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+            <state line="17" column="11" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubObject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SubObject.java">
+      <file leaf-file-name="ISubObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+            <state line="9" column="18" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModel.java">
+      <file leaf-file-name="ITestModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ITestModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+            <state line="9" column="27" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,16 +180,7 @@
       <file leaf-file-name="SerializableObject.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiskSerializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-helpers/com/expedia/jonas/serialisationtesting/DiskSerializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -197,6 +197,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -204,22 +205,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test-unit/com/expedia/jonas/serialisationtesting/TestModelTest.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerialisedObject.java" />
         <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerialisableTestModel.java" />
         <option value="$PROJECT_DIR$/test-helpers/com/expedia/jonas/serialisationtesting/SerialisationTestHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SubObject.java" />
         <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableTestModel.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java" />
         <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerialisableObject.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModel.java" />
         <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableTestModel.java" />
         <option value="$PROJECT_DIR$/test-helpers/com/expedia/jonas/serialisationtesting/DiskSerializer.java" />
-        <option value="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java" />
-        <option value="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializbleObjects.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SubObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModel.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java" />
+        <option value="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java" />
       </list>
     </option>
   </component>
@@ -464,7 +465,7 @@
       <recent name="com.expedia.jonas.serialisationtesting" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestModelTest.testCanSerialise">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration default="false" name="TestModelIntegrationTest.testSerializationOfNonSerializableSubObjectFails" type="TestNG" factoryName="TestNG" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -762,8 +763,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestModelTest.testCanSerialise" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.&lt;default&gt;" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.&lt;default&gt;" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestModelTest.testCanSerialise" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.TestModelTest" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.TestModelTest.testRoundTripSerialization" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.TestModelIntegrationTest.testSerializationOfNonSerializableSubObjectFails" />
@@ -793,7 +794,11 @@
       <created>1363191070583</created>
       <updated>1363191070583</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactored a bit... Same functionality as prior.">
+      <created>1363194807990</created>
+      <updated>1363194807990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -818,10 +823,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-538" y="-1350" width="2238" height="1292" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="-99" y="-1220" width="1480" height="776" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2397611" sideWeight="0.997719" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2397611" sideWeight="0.997719" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -886,7 +891,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a serialisable subobject to the Test Model&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored a bit... Same functionality as prior." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -903,6 +908,7 @@
     <MESSAGE value="Now I have a stored version of the TestModel on disk and another TestModel that has the same serialVersionUID but another extra field in the object. How can I make a test to make this fail?" />
     <MESSAGE value="Now I have a stored version of the TestModel on disk and another TestModel that has the same serialVersionUID but another extra field in the object. How can I make a test to make this fail (my tests currently pass)?" />
     <MESSAGE value="Adding a serialisable subobject to the Test Model&#10;" />
+    <MESSAGE value="Refactored a bit... Same functionality as prior." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -926,37 +932,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-helpers/com/expedia/jonas/serialisationtesting/DiskSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SubObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -968,16 +946,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializbleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ITestModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="11" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="64" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
+        <state line="37" column="13" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -986,17 +1006,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="97" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
+        <state line="31" column="135" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.56227326">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="61" selection-start="23" selection-end="23" vertical-scroll-proportion="0.035714287">
-          <folding />
         </state>
       </provider>
     </entry>

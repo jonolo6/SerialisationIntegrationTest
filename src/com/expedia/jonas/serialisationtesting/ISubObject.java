@@ -7,6 +7,6 @@ package com.expedia.jonas.serialisationtesting;
  * Time: 16:50
  * To change this template use File | Settings | File Templates.
  */
-public interface SubObject {
+public interface ISubObject {
     String getStringValue();
 }

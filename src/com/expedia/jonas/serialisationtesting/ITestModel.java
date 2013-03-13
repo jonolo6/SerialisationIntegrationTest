@@ -7,6 +7,6 @@ package com.expedia.jonas.serialisationtesting;
  * Time: 16:17
  * To change this template use File | Settings | File Templates.
  */
-public interface TestModel {
-    SubObject getSubObject();
+public interface ITestModel {
+    ISubObject getSubObject();
 }

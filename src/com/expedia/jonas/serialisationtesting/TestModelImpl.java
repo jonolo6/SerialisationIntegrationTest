@@ -9,22 +9,22 @@ import java.io.Serializable;
  * Time: 18:45
  * To change this template use File | Settings | File Templates.
  */
-public class TestModelImpl implements Serializable, TestModel {
+public class TestModelImpl implements Serializable, ITestModel {
 
     private static final long serialVersionUID = 2765884437957874564L;
 
-    private SubObject object;
+    private ISubObject object;
 
-    public TestModelImpl(SubObject object) {
+    public TestModelImpl(ISubObject object) {
         this.object = object;
     }
 
 
-    public void setObjects(SubObject newObject) {
+    public void setObjects(ISubObject newObject) {
         this.object = newObject;
     }
 
-    public SubObject getSubObject() {
+    public ISubObject getSubObject() {
         return object;
     }
 }

@@ -7,17 +7,10 @@ package com.expedia.jonas.serialisationtesting;
  * Time: 19:18
  * To change this template use File | Settings | File Templates.
  */
-public class NonSerializableObject implements SubObject{
+public class NonSerializableObject extends AbstractSerializbleObject implements ISubObject {
 
-    private Object object;
-
-
-    public NonSerializableObject(Object object) {
-        this.object = object;
+    public NonSerializableObject(String string) {
+        super(string);
     }
 
-    @Override
-    public String getStringValue() {
-        return object.toString();
-    }
 }
