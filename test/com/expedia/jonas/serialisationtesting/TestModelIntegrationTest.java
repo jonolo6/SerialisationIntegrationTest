@@ -25,7 +25,8 @@ public class TestModelIntegrationTest {
         TestModel context = (TestModel) o;
 
         // test the result
-        assertEquals("blah2", context.getVariableValue());
+        assertEquals(context.getObject(), "blah3");
+        assertEquals(context.getSerialisedObject().getObject(), "serialisedObjName");
     }
 
 }

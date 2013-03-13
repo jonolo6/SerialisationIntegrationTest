@@ -36,7 +36,7 @@ public class TestModelTest {
 
         // construct test object
         TestModel testModel = new TestModel("blah");
-        testModel.setVariableValue("s");
+        testModel.setVariableValue("s", null);
 
         // serialize
         ByteArrayOutputStream out = new ByteArrayOutputStream();
@@ -53,7 +53,7 @@ public class TestModelTest {
         TestModel copy = (TestModel) o;
 
         // test the result
-        assertEquals("s", copy.getVariableValue());
+        assertEquals("s", copy.getObject());
 
     }
 }

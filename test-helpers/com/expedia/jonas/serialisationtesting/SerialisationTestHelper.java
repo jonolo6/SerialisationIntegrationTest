@@ -15,20 +15,19 @@ import java.io.OutputStream;
 public class SerialisationTestHelper {
 
     public static void main(String[] args) throws IOException {
-
         // Uncomment and run the below when you need an instance of the TestModel serialized to disk
-        // writeATestModelToFile("test-data/testModelExample.dat");
+        TestModel testModel = new TestModel("variableObject");
+        writeATestModelToFile("test-data/testModelExample.dat", testModel);
 
     }
 
-    private static void writeATestModelToFile(String fileName) throws IOException {
+    private static void writeATestModelToFile(String fileName, TestModel object) throws IOException {
         OutputStream fout = new FileOutputStream(fileName);
         ObjectOutputStream out = new ObjectOutputStream(fout);
 
-        TestModel context = new TestModel("variableObject");
-        context.setVariableValue("blah2");
+        object.setVariableValue("blah3", new SerialisedObject("serialisedObjName"));
 
-        out.writeObject(context);
+        out.writeObject(object);
         out.flush();
         out.close();
     }
