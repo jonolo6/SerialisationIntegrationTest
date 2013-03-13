@@ -4,8 +4,7 @@ import org.testng.annotations.Test;
 
 import java.io.*;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -16,44 +15,23 @@ import static org.testng.Assert.assertTrue;
  */
 public class TestModelTest {
 
+
+    //This test will fail if the TestModel hasn't implemented the Serializable interface.
     @Test
     public void testCanSerialise() throws IOException {
-        TestModel testModel = new TestModel("blah");
+        TestModel testModel = new TestModelImpl(new SerializableObject("testSerializableObject"));
 
-        ByteArrayOutputStream out = new ByteArrayOutputStream();
-        ObjectOutputStream oos = new ObjectOutputStream(out);
-
-        oos.writeObject(testModel);
-        oos.close();
-
+        ByteArrayOutputStream out = serialise(testModel);
         assertTrue(out.toByteArray().length > 0);
     }
 
-    //This test will fail if the TestModel hasn't implemented the Serializable interface.
-    //This test will fail if the TestModel contains an object that is not Serialisable (like a java.net.Socket object for instance).
-    @Test
-    public void testRoundTripSerialization() throws IOException, ClassNotFoundException {
-
-        // construct test object
-        TestModel testModel = new TestModel("blah");
-        testModel.setVariableValue("s", null);
-
-        // serialize
+    private ByteArrayOutputStream serialise(TestModel testModel) throws IOException {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         ObjectOutputStream oos = new ObjectOutputStream(out);
-
         oos.writeObject(testModel);
         oos.close();
-
-        //deserialize
-        byte[] pickled = out.toByteArray();
-        InputStream in = new ByteArrayInputStream(pickled);
-        ObjectInputStream ois = new ObjectInputStream(in);
-        Object o = ois.readObject();
-        TestModel copy = (TestModel) o;
-
-        // test the result
-        assertEquals("s", copy.getObject());
-
+        return out;
     }
+
+
 }

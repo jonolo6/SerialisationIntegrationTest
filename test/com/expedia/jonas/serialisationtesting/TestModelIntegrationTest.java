@@ -5,6 +5,8 @@ import org.testng.annotations.Test;
 import java.io.*;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertFalse;
+import static org.testng.Assert.assertTrue;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,18 +17,39 @@ import static org.testng.Assert.assertEquals;
  */
 public class TestModelIntegrationTest {
 
+    //This test will fail if the TestModel contains a sub-object that is not Serialisable (like a java.net.Socket object for instance).
     @Test
     public void testSerializationFormatHasNotChanged() throws IOException, ClassNotFoundException {
+        String fileName = "test-data/testModel-WithSerializableSubObject.dat";
 
-        //deserialize
-        InputStream in = new FileInputStream("test-data/testModelExample.dat");
-        ObjectInputStream ois = new ObjectInputStream(in);
-        Object o = ois.readObject();
-        TestModel context = (TestModel) o;
+        SubObject serializableObject = new SerializableObject("serialisedObjName");
+        TestModel testModelToDisk = new TestModelImpl(serializableObject);
 
-        // test the result
-        assertEquals(context.getObject(), "blah3");
-        assertEquals(context.getSerialisedObject().getObject(), "serialisedObjName");
+        assertRoundTripSerialisationToDisk(fileName, testModelToDisk, "serialisedObjName");
+    }
+
+    //This test will fail if the TestModel contains an objects that is Serialisable (like a java.net.Socket object for instance).
+    @Test
+    public void testSerializationOfNonSerializableSubObjectFails() throws ClassNotFoundException {
+        String fileName = "test-data/testModel-WithNonSerializableSubObject.dat";
+
+        SubObject nonSerializableSubObject = new NonSerializableObject("serialisedObjName");
+        TestModel testModelToDisk = new TestModelImpl(nonSerializableSubObject);
+
+        try {
+            assertRoundTripSerialisationToDisk(fileName, testModelToDisk, "serialisedObjName");
+        } catch (IOException e) {
+            assertTrue(true, "We do expect an IO exception when de-serialising");
+        }
+    }
+
+    private void assertRoundTripSerialisationToDisk(String fileName, TestModel modelToDisk, String expectedStringValueOfSubObject) throws IOException, ClassNotFoundException {
+        DiskSerializer diskSerializer = new DiskSerializer();
+        Object objectFromDisk = diskSerializer.roundTripSerialiseToDisk(fileName, modelToDisk);
+
+        TestModel modelFromDisk = (TestModel) objectFromDisk;
+
+        assertEquals(modelFromDisk.getSubObject().getStringValue(), expectedStringValueOfSubObject);
     }
 
 }
