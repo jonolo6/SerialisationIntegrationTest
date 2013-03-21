@@ -13,11 +13,11 @@ public class DiskSerializer {
 
     public static void main(String[] args) throws IOException {
         SerializableSubObject serializableObject = new SerializableSubObject("serialisedObjName");
-        TestModelImpl testModel = new TestModelImpl(serializableObject);
+        TestModelImpl testModel = new TestModelImpl();
 
         // run the below when you need an instance of the TestModel serialized to disk
         DiskSerializer serialisationTestHelper = new DiskSerializer();
-        serialisationTestHelper.writeObjectToFile("test-data/testModel-newVersion.dat", testModel);
+        serialisationTestHelper.writeObjectToFile("test-data/testModel.dat", testModel);
     }
 
     public Object roundTripSerialiseToDisk(String fileName, Object testModel) throws IOException, ClassNotFoundException {

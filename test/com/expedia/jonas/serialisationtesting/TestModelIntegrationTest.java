@@ -2,10 +2,10 @@ package com.expedia.jonas.serialisationtesting;
 
 import org.testng.annotations.Test;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.ObjectStreamClass;
 
 import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 /**
@@ -17,7 +17,7 @@ import static org.testng.Assert.assertTrue;
  */
 public class TestModelIntegrationTest {
 
-    private DiskSerializer diskSerializer;
+    private DiskSerializer diskSerializer = new DiskSerializer();
 
     //This test will fail if the TestModel contains a sub-object that is not Serialisable (like a java.net.Socket object for instance).
     @Test
@@ -47,26 +47,38 @@ public class TestModelIntegrationTest {
 
     @Test
     public void testThatCallingAllMethodsOnAnObjectThatDeserialisesFineButIsIncompatibleFails() throws IOException, ClassNotFoundException {
-        Object objectFromFile = diskSerializer.readObjectFromFile("test-data/testModel-oldVersion.dat");
+        Object objectFromFile = diskSerializer.readObjectFromFile("test-data/testModel.dat");
         ITestModel testModel = (ITestModel) objectFromFile;
-        ISubObject result = testModel.getSubObjectAsANewMethod();
-        System.out.println("old: " + result);
-        //TODO: the problem here is that the old model doesn't have the getSubObjectAsANewMethod method, but it returns null - it doesn't throw an exception.
+//        ISubObject result = testModel.getSubObject();
+        System.out.println("old: " + testModel);
+        System.out.println("SerialVersionUID: " + getSUID(testModel));
 
-        objectFromFile = diskSerializer.readObjectFromFile("test-data/testModel-newVersion.dat");
-        testModel = (ITestModel) objectFromFile;
-        result = testModel.getSubObjectAsANewMethod();
-        System.out.println("new: " + result);
+        //TODO: the problem here is that the old model doesn't have the getSubObject method, but it returns null - it doesn't throw an exception.
+
+//        Object objectFromFile2 = diskSerializer.readObjectFromFile("test-data/testModel-newVersion.dat");
+        ITestModel testModel2 = new TestModelImpl();
+//        ISubObject result2 = testModel2.getSubObject();
+        System.out.println("new: " + testModel2);
+        System.out.println("SerialVersionUID: " + getSUID(testModel2));
+
+        assertEquals(testModel2, testModel);
+        assertTrue(testModel.hashCode() == testModel2.hashCode());
+
+
+        System.out.println("SerialVersionUID: " + getSUID(new String("test")));
+    }
+
+    private long getSUID(Object s) {
+        Class cl = s.getClass();
+        return ObjectStreamClass.lookup(cl).getSerialVersionUID();
     }
 
 
     private void assertRoundTripSerialisationToDisk(String fileName, ITestModel modelToDisk, String expectedStringValueOfSubObject) throws IOException, ClassNotFoundException {
-        diskSerializer = new DiskSerializer();
         Object objectFromDisk = diskSerializer.roundTripSerialiseToDisk(fileName, modelToDisk);
-
         ITestModel modelFromDisk = (ITestModel) objectFromDisk;
 
-        assertEquals(modelFromDisk.getSubObjectAsANewMethod().getStringValue(), expectedStringValueOfSubObject);
+        assertEquals(modelFromDisk.getSubObject().getStringValue(), expectedStringValueOfSubObject);
     }
 
 }

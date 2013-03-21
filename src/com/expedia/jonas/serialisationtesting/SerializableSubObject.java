@@ -9,6 +9,7 @@ package com.expedia.jonas.serialisationtesting;
  */
 public class SerializableSubObject extends AbstractSerializableSubObject {
 
+    private String blah;
 
     public SerializableSubObject(String string) {
         super(string);
