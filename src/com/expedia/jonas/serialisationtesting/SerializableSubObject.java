@@ -7,10 +7,10 @@ package com.expedia.jonas.serialisationtesting;
  * Time: 09:57
  * To change this template use File | Settings | File Templates.
  */
-public class SerializableObject extends AbstractSerializbleObject {
+public class SerializableSubObject extends AbstractSerializableSubObject {
 
 
-    public SerializableObject(String string) {
+    public SerializableSubObject(String string) {
         super(string);
     }
 

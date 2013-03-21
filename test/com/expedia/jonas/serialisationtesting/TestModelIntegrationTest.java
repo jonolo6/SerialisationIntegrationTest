@@ -22,7 +22,7 @@ public class TestModelIntegrationTest {
     public void testSerializationFormatHasNotChanged() throws IOException, ClassNotFoundException {
         String fileName = "test-data/testModel-WithSerializableSubObject.dat";
 
-        ISubObject serializableObject = new SerializableObject("serialisedObjName");
+        ISubObject serializableObject = new SerializableSubObject("serialisedObjName");
         ITestModel testModelToDisk = new TestModelImpl(serializableObject);
 
         assertRoundTripSerialisationToDisk(fileName, testModelToDisk, "serialisedObjName");
@@ -33,7 +33,7 @@ public class TestModelIntegrationTest {
     public void testSerializationOfNonSerializableSubObjectFails() throws ClassNotFoundException {
         String fileName = "test-data/testModel-WithNonSerializableSubObject.dat";
 
-        ISubObject nonSerializableSubObject = new NonSerializableObject("serialisedObjName");
+        ISubObject nonSerializableSubObject = new NonSerializableSubObject("serialisedObjName");
         ITestModel testModelToDisk = new TestModelImpl(nonSerializableSubObject);
 
         try {

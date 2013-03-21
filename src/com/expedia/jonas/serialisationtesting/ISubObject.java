@@ -8,5 +8,5 @@ package com.expedia.jonas.serialisationtesting;
  * To change this template use File | Settings | File Templates.
  */
 public interface ISubObject {
-    String getStringValue();
+    public String getStringValue();
 }

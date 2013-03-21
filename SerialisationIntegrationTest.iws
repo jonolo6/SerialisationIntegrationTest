@@ -2,25 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializbleObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializableSubObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableSubObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableSubObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-helpers/com/expedia/jonas/serialisationtesting/DiskSerializer.java" afterPath="$PROJECT_DIR$/test-helpers/com/expedia/jonas/serialisationtesting/DiskSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ITestModel.java" afterPath="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ITestModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SerialisationIntegrationTest.iml" afterPath="$PROJECT_DIR$/SerialisationIntegrationTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SerialisationIntegrationTest.ipr" afterPath="$PROJECT_DIR$/SerialisationIntegrationTest.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SerialisationIntegrationTest.iws" afterPath="$PROJECT_DIR$/SerialisationIntegrationTest.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java" afterPath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java" afterPath="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java" />
     </list>
     <ignored path="SerialisationIntegrationTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195164150" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363872184962" ignored="false" />
     <file path="/TestModel.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195114621" ignored="false" />
-    <file path="/fragment.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194884525" ignored="false" />
+    <file path="/fragment.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363872333200" ignored="false" />
     <file path="/TestModelTest.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195139572" ignored="false" />
     <file path="/FileSerialiserTest.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363114789832" ignored="false" />
     <file path="/FileSerialiser.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363114932931" ignored="false" />
     <file path="/NonSerialisableObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194980575" ignored="false" />
     <file path="/SerialisationTestHelper.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363193936790" ignored="false" />
-    <file path="/TestModelIntegrationTest.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195131000" ignored="false" />
+    <file path="/TestModelIntegrationTest.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363197272338" ignored="false" />
     <file path="/SerialisedObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363168699491" ignored="false" />
     <file path="/NonSerializableTestModel.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363193853335" ignored="false" />
-    <file path="/SerializableObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194915094" ignored="false" />
+    <file path="/SerializableObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363872306978" ignored="false" />
     <file path="/.gitignore" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194778578" ignored="false" />
     <file path="/AbstractSerializbleObjects.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363194898371" ignored="false" />
     <file path="/SubObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363195017834" ignored="false" />
+    <file path="/*.regexp" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363355230100" ignored="false" />
+    <file path="/src/depots/jolofsson_MacPro_1994/www/expweb/trunk/domain/src/com/expedia/www/domain/services/richcontent/RichContentService.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363343578995" ignored="false" />
+    <file path="/src/depots/jolofsson_MacPro_1994/www/expweb/trunk/content/views/sites/www.expedia.com_1/includes/launch/deals/SEO-deals.ftl" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363355183488" ignored="false" />
+    <file path="/SEO-deals.ftl" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363355183488" ignored="false" />
+    <file path="/AbstractSerializbleObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363872261824" ignored="false" />
+    <file path="/NonSerializableObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363872290810" ignored="false" />
+    <file path="/ISubObject.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363872339767" ignored="false" />
+    <file path="/ITestModel.java" changelist="e6ff4b6e-34e0-4751-ac1f-fbaee09aec72" time="1363872343923" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +58,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -74,7 +93,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -84,10 +102,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestModelIntegrationTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestModelIntegrationTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="135" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.56227326">
+            <state line="24" column="44" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,7 +116,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,36 +125,43 @@
       <file leaf-file-name="TestModelTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="13" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assert.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.1.1/testng-6.1.1.jar!/org/testng/Assert.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="23" selection-start="1127" selection-end="1127" vertical-scroll-proportion="-9.6">
+            <state line="15" column="13" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NonSerializableObject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java">
+      <file leaf-file-name="NonSerializableSubObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableSubObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+            <state line="9" column="58" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractSerializbleObject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializbleObject.java">
+      <file leaf-file-name="SerializableSubObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableSubObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+            <state line="9" column="28" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractSerializableSubObject.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializableSubObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="53" selection-start="451" selection-end="451" vertical-scroll-proportion="0.4857143">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Object.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="22" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,16 +170,7 @@
       <file leaf-file-name="TestModelImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="11" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISubObject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+            <state line="19" column="5" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,16 +179,16 @@
       <file leaf-file-name="ITestModel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ITestModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+            <state line="10" column="37" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerializableObject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java">
+      <file leaf-file-name="ISubObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+            <state line="10" column="11" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -197,22 +213,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerialisableTestModel.java" />
-        <option value="$PROJECT_DIR$/test-helpers/com/expedia/jonas/serialisationtesting/SerialisationTestHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableTestModel.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerialisableObject.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableTestModel.java" />
-        <option value="$PROJECT_DIR$/test-helpers/com/expedia/jonas/serialisationtesting/DiskSerializer.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializbleObjects.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java" />
         <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SubObject.java" />
-        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java" />
         <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModel.java" />
+        <option value="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java" />
+        <option value="$PROJECT_DIR$/SerialisationIntegrationTest.iws" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java" />
         <option value="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializbleObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializbleSubObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializableSubObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableSubObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableSubObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java" />
+        <option value="$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ITestModel.java" />
       </list>
     </option>
   </component>
@@ -231,24 +247,6 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="SerialisationIntegrationTest" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="SerialisationIntegrationTest" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
       </PATH>
     </treeState>
   </component>
@@ -256,10 +254,10 @@
     <option name="ENABLED" value="false" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-538" />
-    <option name="y" value="-1350" />
-    <option name="width" value="2238" />
-    <option name="height" value="1292" />
+    <option name="x" value="9" />
+    <option name="y" value="-1104" />
+    <option name="width" value="1833" />
+    <option name="height" value="976" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -269,16 +267,7 @@
             <id />
           </State>
           <State>
-            <id>Control flow issues</id>
-          </State>
-          <State>
             <id>Google Web Toolkit issues</id>
-          </State>
-          <State>
-            <id>Logging issues</id>
-          </State>
-          <State>
-            <id>Memory issues</id>
           </State>
           <State>
             <id>Security issues</id>
@@ -289,7 +278,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>SerializableHasSerialVersionUIDField</id>
+            <id>NonSerializableObjectPassedToObjectStream</id>
           </State>
         </selected-state>
       </profile-state>
@@ -321,8 +310,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,6 +398,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,15 +411,16 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.intentionPowerPack" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="/src/depots/jolofsson_MacPro_1994/www/expweb/trunk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SerialisationIntegrationTest.ipr" />
     <property name="project.structure.side.proportion" value="0.497669" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -438,11 +428,11 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.expedia.jonas.serialisationtesting" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.expedia.jonas.serialisationtesting" />
@@ -794,7 +784,15 @@
       <created>1363195170935</created>
       <updated>1363195170935</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactored a bit... Same functionality as prior.">
+      <created>1363195177743</created>
+      <updated>1363195177743</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added new test that I need to ensure passes...">
+      <created>1363197312228</created>
+      <updated>1363197312228</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -818,35 +816,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-538" y="-1350" width="2238" height="1292" extended-state="6" />
-    <editor active="false" />
+    <frame x="9" y="-1104" width="1833" height="976" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="-99" y="-1220" width="1480" height="776" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2397611" sideWeight="0.997719" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21212122" sideWeight="0.997719" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284983" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24589416" sideWeight="0.3771331" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32750583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32867134" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24589416" sideWeight="0.3771331" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22551763" sideWeight="0.67132866" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18613139" sideWeight="0.7602389" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16060436" sideWeight="0.67132866" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.9984678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="-99" y="-1220" width="1480" height="776" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21439937" sideWeight="0.3909091" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -887,7 +885,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored a bit... Same functionality as prior." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new test that I need to ensure passes..." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -905,6 +903,7 @@
     <MESSAGE value="Now I have a stored version of the TestModel on disk and another TestModel that has the same serialVersionUID but another extra field in the object. How can I make a test to make this fail (my tests currently pass)?" />
     <MESSAGE value="Adding a serialisable subobject to the Test Model&#10;" />
     <MESSAGE value="Refactored a bit... Same functionality as prior." />
+    <MESSAGE value="Added new test that I need to ensure passes..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -914,11 +913,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/net/Socket.class">
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableSubObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.13736264">
+        <state line="9" column="13" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/net/Socket.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.13736264" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -937,75 +941,85 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.1.1/testng-6.1.1.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="23" selection-start="1127" selection-end="1127" vertical-scroll-proportion="-9.6">
+        <state line="27" column="23" selection-start="1127" selection-end="1127" vertical-scroll-proportion="-9.6" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerialisationIntegrationTest.iws">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="54" selection-start="4249" selection-end="4249" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializbleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ITestModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="13" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
+        <state line="15" column="13" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="44" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/expedia/jonas/serialisationtesting/TestModelIntegrationTest.java">
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Object.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="135" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.56227326">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="13" column="22" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/NonSerializableSubObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="58" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/SerializableSubObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/TestModelImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="5" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ISubObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/ITestModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="37" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/expedia/jonas/serialisationtesting/AbstractSerializableSubObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="53" selection-start="451" selection-end="451" vertical-scroll-proportion="0.4857143">
+          <folding />
         </state>
       </provider>
     </entry>

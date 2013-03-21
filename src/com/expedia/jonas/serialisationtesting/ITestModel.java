@@ -8,5 +8,5 @@ package com.expedia.jonas.serialisationtesting;
  * To change this template use File | Settings | File Templates.
  */
 public interface ITestModel {
-    ISubObject getSubObject();
+    public ISubObject getSubObject();
 }

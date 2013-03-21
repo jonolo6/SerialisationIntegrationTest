@@ -9,10 +9,10 @@ import java.io.Serializable;
  * Time: 17:14
  * To change this template use File | Settings | File Templates.
  */
-public abstract class AbstractSerializbleObject implements Serializable, ISubObject {
+public abstract class AbstractSerializableSubObject implements Serializable, ISubObject {
     protected String object;
 
-    public AbstractSerializbleObject(String object) {
+    public AbstractSerializableSubObject(String object) {
         this.object = object;
     }
 
@@ -24,9 +24,9 @@ public abstract class AbstractSerializbleObject implements Serializable, ISubObj
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof SerializableObject)) return false;
+        if (!(o instanceof SerializableSubObject)) return false;
 
-        SerializableObject that = (SerializableObject) o;
+        SerializableSubObject that = (SerializableSubObject) o;
 
         if (object != null ? !object.equals(that.object) : that.object != null) return false;
 

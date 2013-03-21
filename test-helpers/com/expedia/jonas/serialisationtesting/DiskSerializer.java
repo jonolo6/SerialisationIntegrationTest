@@ -12,7 +12,7 @@ import java.io.*;
 public class DiskSerializer {
 
     public static void main(String[] args) throws IOException {
-        SerializableObject serializableObject = new SerializableObject("serialisedObjName");
+        SerializableSubObject serializableObject = new SerializableSubObject("serialisedObjName");
         TestModelImpl testModel = new TestModelImpl(serializableObject);
 
         // run the below when you need an instance of the TestModel serialized to disk
