@@ -17,6 +17,8 @@ import static org.testng.Assert.assertTrue;
  */
 public class TestModelIntegrationTest {
 
+    private DiskSerializer diskSerializer;
+
     //This test will fail if the TestModel contains a sub-object that is not Serialisable (like a java.net.Socket object for instance).
     @Test
     public void testSerializationFormatHasNotChanged() throws IOException, ClassNotFoundException {
@@ -44,17 +46,27 @@ public class TestModelIntegrationTest {
     }
 
     @Test
-    public void testThatCallingAllMethodsOnAnObjectThatDeserialisesFineButIsIncompatibleFails(){
-        assertTrue(false, "need to implement this test next.");
+    public void testThatCallingAllMethodsOnAnObjectThatDeserialisesFineButIsIncompatibleFails() throws IOException, ClassNotFoundException {
+        Object objectFromFile = diskSerializer.readObjectFromFile("test-data/testModel-oldVersion.dat");
+        ITestModel testModel = (ITestModel) objectFromFile;
+        ISubObject result = testModel.getSubObjectAsANewMethod();
+        System.out.println("old: " + result);
+        //TODO: the problem here is that the old model doesn't have the getSubObjectAsANewMethod method, but it returns null - it doesn't throw an exception.
+
+        objectFromFile = diskSerializer.readObjectFromFile("test-data/testModel-newVersion.dat");
+        testModel = (ITestModel) objectFromFile;
+        result = testModel.getSubObjectAsANewMethod();
+        System.out.println("new: " + result);
     }
 
+
     private void assertRoundTripSerialisationToDisk(String fileName, ITestModel modelToDisk, String expectedStringValueOfSubObject) throws IOException, ClassNotFoundException {
-        DiskSerializer diskSerializer = new DiskSerializer();
+        diskSerializer = new DiskSerializer();
         Object objectFromDisk = diskSerializer.roundTripSerialiseToDisk(fileName, modelToDisk);
 
         ITestModel modelFromDisk = (ITestModel) objectFromDisk;
 
-        assertEquals(modelFromDisk.getSubObject().getStringValue(), expectedStringValueOfSubObject);
+        assertEquals(modelFromDisk.getSubObjectAsANewMethod().getStringValue(), expectedStringValueOfSubObject);
     }
 
 }

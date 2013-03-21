@@ -17,8 +17,7 @@ public class DiskSerializer {
 
         // run the below when you need an instance of the TestModel serialized to disk
         DiskSerializer serialisationTestHelper = new DiskSerializer();
-        serialisationTestHelper.writeObjectToFile("test-data/testModel-WithSerialisableSubObject.dat", testModel);
-
+        serialisationTestHelper.writeObjectToFile("test-data/testModel-newVersion.dat", testModel);
     }
 
     public Object roundTripSerialiseToDisk(String fileName, Object testModel) throws IOException, ClassNotFoundException {
