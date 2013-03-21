@@ -13,17 +13,17 @@ public class TestModelImpl implements Serializable, ITestModel {
 
     private static final long serialVersionUID = 2765884437957874564L;
 
-    private ISubObject object;
+    private ISubObject objects;
 
     public TestModelImpl(ISubObject object) {
-        this.object = object;
+        this.objects = object;
     }
 
     public void setObjects(ISubObject newObject) {
-        this.object = newObject;
+        this.objects = newObject;
     }
 
-    public ISubObject getSubObject() {
-        return object;
+    public ISubObject getSubObjectAsANewMethod() {
+        return objects;
     }
 }
